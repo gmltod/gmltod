@@ -1,0 +1,239 @@
+<svg width="840" height="1260" viewBox="0 0 840 1260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      600;700;800&amp;family=Quicksand:wght@500;600;700&amp;display=swap');
+
+      .bg-card {
+        fill: #F4ECD8;
+        stroke: #E4D6B7;
+        stroke-width: 2;
+      }
+      .font-main {
+        font-family: 'Quicksand', 'Nunito', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+      }
+      .text-sub-top {
+        fill: #8C6F4E;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+      }
+      .text-title {
+        fill: #5C4328;
+        font-size: 38px;
+        font-weight: 800;
+      }
+      .text-role {
+        fill: #8C6F4E;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .text-tagline-en {
+        fill: #7A6043;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .text-tagline-ko {
+        fill: #967B5C;
+        font-size: 14.5px;
+        font-weight: 500;
+      }
+      .section-title {
+        fill: #5C4328;
+        font-size: 23px;
+        font-weight: 800;
+      }
+      .body-en {
+        fill: #6E553A;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .body-ko {
+        fill: #8C7153;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .sparkle-text {
+        fill: #A88960;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 3px;
+      }
+      .divider-line {
+        stroke: #D5C4A1;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+      }
+
+      /* 반짝임 &amp; 유영 애니메이션 */
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.45; }
+        50% { opacity: 1; }
+      }
+      @keyframes floatLeftRight {
+        0%, 100% { transform: translateX(-14px); }
+        50% { transform: translateX(14px); }
+      }
+      @keyframes floatRightLeft {
+        0%, 100% { transform: translateX(14px); }
+        50% { transform: translateX(-14px); }
+      }
+      @keyframes pulseStar {
+        0%, 100% { transform: scale(0.95); opacity: 0.7; }
+        50% { transform: scale(1.12); opacity: 1; }
+      }
+
+      .anim-wave-1 {
+        animation: floatLeftRight 5s ease-in-out infinite, twinkle 3.2s ease-in-out infinite;
+      }
+      .anim-wave-2 {
+        animation: floatRightLeft 5.5s ease-in-out infinite, twinkle 3.8s ease-in-out infinite;
+      }
+      .anim-twinkle {
+        animation: twinkle 2.8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  
+  <rect x="10" y="10" width="820" height="1240" rx="26" class="bg-card" />
+
+  
+  <g transform="translate(420, 68)" text-anchor="middle" class="font-main">
+    <text y="0" class="text-sub-top anim-twinkle">✦ PERSONAL ARTIST PROFILE ✦</text>
+    <text y="48" class="text-title">🍂 Hello, I'm whee!</text>
+
+    
+    <g transform="translate(0, 86)">
+      
+      <path d="M-148 -14 L-142 -20 L-134 -12 L-140 -6 Z M-151 -11 L-145 -5 L-153 -3 Z" fill="#8C6F4E" />
+      <text x="0" y="-4" class="text-role">Illustrator &amp; Animator</text>
+      
+      <path d="M142 -18 L144 -12 L150 -10 L144 -8 L142 -2 L140 -8 L134 -10 L140 -12 Z" fill="#8C6F4E" />
+    </g>
+
+    <text y="122" class="text-tagline-en">Creating art, characters, and stories.</text>
+    <text y="146" class="text-tagline-ko">그림과 캐릭터, 이야기를 만들어 갑니다.</text>
+
+    
+    <g transform="translate(0, 174)">
+      
+      <rect x="-195" y="0" width="116" height="30" rx="15" fill="#F3D2B3" />
+      <text x="-137" y="20" fill="#8C4A1C" font-size="13.5" font-weight="700">✦ Illustration</text>
+
+      
+      <rect x="-65" y="0" width="114" height="30" rx="15" fill="#CBEAD1" />
+      <text x="-8" y="20" fill="#256B3B" font-size="13.5" font-weight="700">✦ Animator</text>
+
+      
+      <rect x="63" y="0" width="126" height="30" rx="15" fill="#DFD3F2" />
+      <text x="126" y="20" fill="#5B3A8C" font-size="13.5" font-weight="700">✦ Fantasy Art</text>
+    </g>
+
+    
+    <g transform="translate(0, 240)">
+      <line x1="-350" y1="0" x2="-155" y2="0" class="divider-line" />
+      <text x="0" y="6" class="sparkle-text anim-wave-1">✧ · ˚ ✦ ˚ · ✧</text>
+      <line x1="155" y1="0" x2="350" y2="0" class="divider-line" />
+    </g>
+  </g>
+
+  
+  <g transform="translate(420, 355)" text-anchor="middle" class="font-main">
+    <text y="0" class="section-title">🌿 About Me | 자기소개</text>
+
+    <text y="42" class="body-en" font-weight="700">Hello! I'm whee, an Illustrator &amp; Animator.</text>
+    <text y="68" class="body-en">I enjoy drawing and bringing my ideas to life through art and animation.</text>
+    <text y="92" class="body-en">I'm particularly interested in fantasy illustrations, character design, and imaginative worlds.</text>
+    <text y="116" class="body-en">This GitHub is my personal space where I share my creative projects and artistic journey.</text>
+
+    <text y="156" class="body-ko" font-weight="700">안녕하세요! 저는 일러스트레이터이자 애니메이터인 whee입니다.</text>
+    <text y="180" class="body-ko">그림을 그리고 애니메이션을 통해 저의 아이디어를 표현하는 것을 좋아합니다.</text>
+    <text y="204" class="body-ko">특히 판타지 일러스트와 캐릭터 디자인, 상상 속 세계를 시각적으로 표현하는 작업에 관심이 있습니다.</text>
+    <text y="228" class="body-ko">이 GitHub는 저의 관심 분야와 개인 프로젝트, 창작 활동을 기록하는 공간입니다.</text>
+
+    
+    <g transform="translate(0, 272)">
+      <line x1="-350" y1="0" x2="-185" y2="0" class="divider-line" />
+      <text x="0" y="6" class="sparkle-text anim-wave-2">⋆｡°✩  ✧ · ˚ ✦ ˚ · ✧  ⋆｡°✩</text>
+      <line x1="185" y1="0" x2="350" y2="0" class="divider-line" />
+    </g>
+  </g>
+
+  
+  <g transform="translate(420, 675)" text-anchor="middle" class="font-main">
+    <text y="0" class="section-title">🎨 Creative Interests | 창작 관심 분야</text>
+    <text y="30" class="body-ko">Things I enjoy and explore in my creative work · 제가 창작 활동에서 탐구하는 분야입니다</text>
+
+    
+    <g transform="translate(0, 52)">
+      
+      <rect x="-320" y="0" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="-167" y="23" class="body-en">✦ Fantasy Illustration — 판타지 일러스트</text>
+
+      <rect x="-320" y="46" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="-167" y="69" class="body-en">✦ Visual Storytelling — 시각적 스토리텔링</text>
+
+      <rect x="-320" y="92" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="-167" y="115" class="body-en">✦ Digital Drawing — 디지털 드로잉</text>
+
+      
+      <rect x="15" y="0" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="167" y="23" class="body-en">✦ Character Design — 캐릭터 디자인</text>
+
+      <rect x="15" y="46" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="167" y="69" class="body-en">✦ World Building — 세계관 제작</text>
+
+      <rect x="15" y="92" width="305" height="36" rx="12" fill="#EDE1C7" />
+      <text x="167" y="115" class="body-en">✦ 2D Animation — 2D 애니메이션</text>
+    </g>
+  </g>
+
+  
+  <g transform="translate(420, 865)" text-anchor="middle" class="font-main">
+    <text y="0" class="section-title">🖌️ Creative Tools | 작업 도구</text>
+
+    <g transform="translate(0, 26)">
+      
+      <g transform="translate(-235, 0)">
+        <rect x="0" y="0" width="220" height="48" rx="14" fill="#FAF5E8" stroke="#D5C4A1" stroke-width="1.5" />
+        
+        <rect x="14" y="10" width="28" height="28" rx="7" fill="#5C4328" />
+        <path d="M28 15 L34 25 L28 33 L22 25 Z" fill="#F4ECD8" />
+        <circle cx="28" cy="24" r="2" fill="#5C4328" />
+        <text x="128" y="29" class="body-en" font-weight="700">Clip Studio Paint</text>
+      </g>
+
+      
+      <g transform="translate(15, 0)">
+        <rect x="0" y="0" width="220" height="48" rx="14" fill="#FAF5E8" stroke="#D5C4A1" stroke-width="1.5" />
+        
+        <rect x="14" y="10" width="28" height="28" rx="7" fill="#8C6F4E" />
+        <path d="M21 30 C23 22, 29 17, 35 16 C33 23, 28 29, 21 30 Z" fill="#F4ECD8" />
+        <text x="128" y="29" class="body-en" font-weight="700">Procreate</text>
+      </g>
+    </g>
+
+    
+    <g transform="translate(0, 106)">
+      <line x1="-350" y1="0" x2="-155" y2="0" class="divider-line" />
+      <text x="0" y="6" class="sparkle-text anim-wave-1">✧ · ˚ ✦ ˚ · ✧</text>
+      <line x1="155" y1="0" x2="350" y2="0" class="divider-line" />
+    </g>
+  </g>
+
+  
+  <g transform="translate(420, 1015)" text-anchor="middle" class="font-main">
+    <text y="0" class="section-title">🌱 My Goals | 앞으로의 목표</text>
+
+    <text y="36" class="body-en">✦ Developing my own artistic style · <tspan class="body-ko">나만의 그림 스타일 발전시키기</tspan></text>
+    <text y="64" class="body-en">✦ Exploring new ways to express ideas · <tspan class="body-ko">그림을 통한 다양한 표현 방법 탐구하기</tspan></text>
+    <text y="92" class="body-en">✦ Creating interesting characters &amp; worlds · <tspan class="body-ko">매력적인 캐릭터와 상상 속 세계 만들기</tspan></text>
+    <text y="120" class="body-en">✦ Improving illustration &amp; animation skills · <tspan class="body-ko">일러스트와 애니메이션 실력 향상시키기</tspan></text>
+  </g>
+
+  
+  <g transform="translate(420, 1185)" text-anchor="middle" class="font-main">
+    <text y="0" class="sparkle-text anim-wave-2">✧ · ˚ ⋆｡°✩ ˚ · ✧ · ˚ ⋆｡°✩ ˚ · ✧</text>
+    <text y="32" fill="#5C4328" font-size="16" font-weight="700">Thank you for visiting! ♡  — whee</text>
+  </g>
+</svg>
