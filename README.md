@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="./profile-card.svg" alt="whee's Artist Profile" width="100%" />
+  <img src="./profile-card.svg?v=2" alt="whee's Artist Profile" width="100%" />
 </div>
